@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Ruta Chatham</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="contenedor">
+      <div class="logo">Ruta Chatham</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="destinos.html">Atractivos</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="seccion">
+      <div class="contenedor">
+        <div class="titulo-seccion">
+          <h1>Contacto y reserva</h1>
+          <p>Completa el formulario y te responderemos con disponibilidad y forma de pago.</p>
+        </div>
+
+        <form class="formulario" action="#" method="post">
+        <div class="campo">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="campo">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
+
+        <div class="campo">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" required>
+        </div>
+
+        <div class="campo">
+          <label for="destino">Destino o actividad</label>
+          <select id="destino" name="destino" required>
+            <option value="">Selecciona una opción</option>
+            <option value="leon-dormido">Snorkel en León Dormido</option>
+            <option value="tierras-altas">Ruta de las Tierras Altas</option>
+            <option value="isla-lobos">Isla de Lobos</option>
+            <option value="gastronomico">Sabores de Galápagos</option>
+            <option value="fin-de-semana">Paquete de fin de semana</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label for="fecha">Fecha deseada</label>
+          <input type="date" id="fecha" name="fecha" required>
+        </div>
+
+        <div class="campo">
+          <label for="personas">Número de personas</label>
+          <input type="number" id="personas" name="personas" min="1" value="2" required>
+        </div>
+
+        <div class="campo">
+          <label for="tipo-servicio">Tipo de servicio</label>
+          <select id="tipo-servicio" name="tipo-servicio" required>
+            <option value="">Selecciona una opción</option>
+            <option value="tour-dia">Tour de un día</option>
+            <option value="paquete-fin-semana">Paquete de fin de semana</option>
+            <option value="tour-privado">Tour privado</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Fechas alternativas u otra información"></textarea>
+        </div>
+
+        <button type="submit" class="btn">Enviar reserva</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <p><strong>Ruta Chatham</strong> - Agencia de turismo, Isla San Cristóbal</p>
+      <p>Puerto Baquerizo Moreno, Galápagos | inf@rutachatham.ec</p>
+      <p>&copy; 2026 - Proyecto académico</p>
+    </div>
+  </footer>
+
+</body>
+</html>
