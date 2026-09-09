@@ -38,7 +38,7 @@ img {
   margin: 0 auto;
 }
 
-/* ---------- Encabezado y menú ---------- */
+/* Encabezado y menú */
 header {
   background-color: #205a68;
   color: #ffffff;
@@ -75,7 +75,7 @@ nav a:focus {
   border-bottom: 2px solid #b5ada8;
 }
 
-/* ---------- Sección Hero (portada) ---------- */
+/*Sección Hero (portada)*/
 .hero {
   background-color: #2d6e7e;
   color: #ffffff;
