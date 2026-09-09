@@ -34,10 +34,7 @@ agencia-turismo/
 └── README.md
 ```
 
-## Captura del sitio
-
-
 
 ## URL del sitio publicado
-
+https://kzambranoc16-collab.github.io/Agencia-de-turismo-galapagos/
 
